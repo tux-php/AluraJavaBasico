@@ -8,7 +8,7 @@ public class Main {
         int opcao;
         double valor;
 
-        Pessoa cliente = new Pessoa("Manoel Baia");
+        Pessoa cliente = new Pessoa("Maria do Rosário");
         ContaCorrente cc = new ContaCorrente(5000.00);
         System.out.println(getAbertura(cliente, cc));
 
